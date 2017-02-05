@@ -7,8 +7,7 @@ int main()
 	char message[106];
 	BOOL result;
 	
-	IntuitionBase = (struct IntuitionBase *)
-    OpenLibrary( "intuition.library", 0 );
+	IntuitionBase = (struct IntuitionBase *) OpenLibrary( "intuition.library", 0 );
 	  
 	if( IntuitionBase == NULL )
 		exit();
