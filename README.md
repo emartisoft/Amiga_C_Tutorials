@@ -1,5 +1,5 @@
 # Amiga_C_Tutorials
-You may download ADE (GCC based Amiga Development Environment) to compile tutorials.
+You may download ADE (GCC based Amiga Development Environment) to compile tutorials on Amiga or emulator.
 
 <br>
 GCC based Amiga Development Environment<br>
