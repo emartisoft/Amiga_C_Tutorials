@@ -12,7 +12,7 @@ main()
 	if(!GetScreenData(&Screen, sizeof(struct Screen), WBENCHSCREEN, NULL)) 
 	{
 		printf("Ekran cozunurlulugu alinamiyor\n");
-		exit(10);
+		exit();
 	}
 
 	printf("Ekran cozunurlulugu: %d x %d\n",Screen.Width, Screen.Height);
