@@ -12,6 +12,7 @@ main()
 	if(!GetScreenData(&Screen, sizeof(struct Screen), WBENCHSCREEN, NULL)) 
 	{
 		printf("Ekran cozunurlulugu alinamiyor\n");
+		CloseLibrary( IntuitionBase );
 		exit();
 	}
 
