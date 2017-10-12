@@ -60,7 +60,7 @@ int main(void)
     theMod = PTSetupMod((APTR)mod);
     PTPlay(theMod);
 
-    Delay(50 * 34); // App will be closed after 30 secs
+    Delay(50 * 34); // App will be closed after 34 secs
 
     /* Closing... */
     if (mod != NULL)
